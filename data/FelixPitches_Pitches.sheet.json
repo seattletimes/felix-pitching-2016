@@ -1,0 +1,57 @@
+[
+  {
+    "type": "Fastball",
+    "description": "This is the text from Ryan",
+    "whiff": "7.63%",
+    "balls": "35.31%",
+    "strikes": "25.81%",
+    "bip": "19.38%",
+    "baa": 0.23,
+    "slugging": 0.352,
+    "strikeouts": "28%"
+  },
+  {
+    "type": "Sinker",
+    "description": "This space intentionally left blank.",
+    "whiff": "5.57%",
+    "balls": "33.74%",
+    "strikes": "26.18%",
+    "bip": "21.30%",
+    "baa": 0.299,
+    "slugging": 0.429,
+    "strikeouts": "11%"
+  },
+  {
+    "type": "Changeup",
+    "description": "This space intentionally left blank.",
+    "whiff": "20.31%",
+    "balls": "34.90%",
+    "strikes": "28.47%",
+    "bip": "17.58%",
+    "baa": 0.163,
+    "slugging": 0.241,
+    "strikeouts": "39%"
+  },
+  {
+    "type": "Slider",
+    "description": "This space intentionally left blank.",
+    "whiff": "20.73%",
+    "balls": "35.74%",
+    "strikes": "37.07%",
+    "bip": "14.41%",
+    "baa": 0.23,
+    "slugging": 0.35,
+    "strikeouts": "35%"
+  },
+  {
+    "type": "Curveball",
+    "description": "This space intentionally left blank.",
+    "whiff": "12.62%",
+    "balls": "28.84%",
+    "strikes": "36.23%",
+    "bip": "11.86%",
+    "baa": 0.2,
+    "slugging": 0.27,
+    "strikeouts": "35%"
+  }
+]

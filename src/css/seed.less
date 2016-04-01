@@ -1,0 +1,28 @@
+@import "seattletimes";
+
+@fastball: @st-dark-orange;
+@curve: @st-dark-purple;
+@sinker: @st-dark-green;
+@slider: @st-dark-red;
+@cutter: @df-dark-gray;
+@change: @st-dark-blue;
+
+@import "header";
+@import "main";
+@import "footer";
+
+@import (inline) "npm://chartist/dist/chartist.min.css";
+
+.placeholder {
+  height: 400px;
+  background: radial-gradient(@df-light-gray, @df-middle-gray);
+}
+
+.constrained {
+  max-width: 800px;
+  margin: auto;
+}
+
+footer.nav-bottom {
+  clear: both;
+}

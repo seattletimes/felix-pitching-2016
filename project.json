@@ -1,0 +1,21 @@
+{
+  "s3": {
+    "stage": {
+      "bucket": "projects-staging.seattletimes.com",
+      "path": "demonstrative-weapon"
+    },
+    "live": {
+      "bucket": "",
+      "path": ""
+    }
+  },
+  "title": "",
+  "description": "",
+  "url": "",
+  "slug": "",
+  "tags": [],
+  "image": "assets/social.jpg",
+  "sheets": ["1p-Nfzg83JBPplmvdWz6PHj52tplFCbZvHwlMzdzBGzU"],
+  "production": false,
+  "embedded": false
+}

@@ -1,0 +1,79 @@
+<%
+var lorem = require("lorem-ipsum");
+%><!doctype html>
+<html>
+  <head>
+    <title><%= json.project.title %></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <%= t.include("partials/_head.html") %>
+  </head>
+  <body>
+
+    <%= t.include("partials/_nav.html") %>
+
+    <%= t.include("partials/_ad.html", { type: "banner" }) %>
+
+    <header class="splash">
+      <h1 class="constrained">The Reign of King Felix</h1>
+      <div class="placeholder"></div>
+    </header>
+
+    <main class="constrained">
+
+      <img src="./assets/Felix-animated.gif" class="pitch-animation">
+
+      <p class="chatter"><%= lorem({ count: 5 }) %></p>
+
+      <p class="chatter">We've taken a look at each of Felix's pitches below, including a description of his style, vital stats, and commentary from Mariners catcher Mike Zunino.</p>
+
+      <section class="pitch-graph">
+        <h2>Pitch counts by year</h2>
+        <p>Over time, Felix has relied less on his slider--and more on his changeup.
+        <div class="ct-chart count-chart ct-major-twelfth"></div>
+
+        <h2>Pitch speed by year</h2>
+        <p>Although his speed has dropped overall, that changeup remains relatively speedy, especially in comparison to his fastball. On average, the difference between the two last year was only five miles an hour.
+        <div class="ct-chart speed-chart ct-major-twelfth"></div>
+      </section>
+
+      <% json.FelixPitches_Pitches.forEach(function(pitch) { %>
+      <section class="pitch-feature">
+        <h2><%= pitch.type %></h2>
+        <p class="description"><%= pitch.description %></p>
+        <table class="stats">
+          <tr> <th><b>Whiff rate</b> <td><%= pitch.whiff %>
+          <tr> <th><b>Balls in play</b> <td><%= pitch.bip %>
+          <tr> <th><b>Balls</b> <td><%= pitch.balls %>
+          <tr> <th><b>Strikes</b> <td><%= pitch.strikes %>
+          <tr> <th><b>Strikeouts</b> <td><%= pitch.strikeouts %>
+          <tr> <th><b>Batting Average Against</b> <td><%= pitch.baa %>
+          <tr> <th><b>Slugging percentage</b> <td><%= pitch.slugging %>
+        </table>
+      </section>
+      <% }) %>
+
+    </main>
+
+    <footer class="closing constrained">
+      <ul class="credits">
+        <li> Reporting: Ryan Divish
+        <li> Data: Thomas Wilburn
+        <li> Production: Sean Quinton
+      </ul>
+    </footer>
+
+    <%= t.include("partials/_navBottom.html") %>
+
+    <script>
+window.pitchCounts = <%= JSON.stringify(json.FelixPitches_Yearly) %>;
+    </script>
+
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_foot.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>

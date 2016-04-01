@@ -1,0 +1,272 @@
+[
+  {
+    "year": 2007,
+    "type": "Fastball",
+    "count": 212,
+    "speed": 98.64
+  },
+  {
+    "year": 2008,
+    "type": "Fastball",
+    "count": 424,
+    "speed": 96.01
+  },
+  {
+    "year": 2009,
+    "type": "Fastball",
+    "count": 721,
+    "speed": 95.17
+  },
+  {
+    "year": 2010,
+    "type": "Fastball",
+    "count": 1060,
+    "speed": 95.01
+  },
+  {
+    "year": 2011,
+    "type": "Fastball",
+    "count": 797,
+    "speed": 94.17
+  },
+  {
+    "year": 2012,
+    "type": "Fastball",
+    "count": 1031,
+    "speed": 92.89
+  },
+  {
+    "year": 2013,
+    "type": "Fastball",
+    "count": 636,
+    "speed": 92.66
+  },
+  {
+    "year": 2014,
+    "type": "Fastball",
+    "count": 457,
+    "speed": 93.59
+  },
+  {
+    "year": 2015,
+    "type": "Fastball",
+    "count": 411,
+    "speed": 92.83
+  },
+  {
+    "year": 2007,
+    "type": "Sinker",
+    "count": 1025,
+    "speed": 97.69
+  },
+  {
+    "year": 2008,
+    "type": "Sinker",
+    "count": 1578,
+    "speed": 95.06
+  },
+  {
+    "year": 2009,
+    "type": "Sinker",
+    "count": 1632,
+    "speed": 94.51
+  },
+  {
+    "year": 2010,
+    "type": "Sinker",
+    "count": 1307,
+    "speed": 94.37
+  },
+  {
+    "year": 2011,
+    "type": "Sinker",
+    "count": 1221,
+    "speed": 93.85
+  },
+  {
+    "year": 2012,
+    "type": "Sinker",
+    "count": 934,
+    "speed": 92.19
+  },
+  {
+    "year": 2013,
+    "type": "Sinker",
+    "count": 1227,
+    "speed": 92.27
+  },
+  {
+    "year": 2014,
+    "type": "Sinker",
+    "count": 1115,
+    "speed": 92.96
+  },
+  {
+    "year": 2015,
+    "type": "Sinker",
+    "count": 870,
+    "speed": 92.24
+  },
+  {
+    "year": 2007,
+    "type": "Changeup",
+    "count": 214,
+    "speed": 88.2
+  },
+  {
+    "year": 2008,
+    "type": "Changeup",
+    "count": 392,
+    "speed": 88.19
+  },
+  {
+    "year": 2009,
+    "type": "Changeup",
+    "count": 520,
+    "speed": 89.78
+  },
+  {
+    "year": 2010,
+    "type": "Changeup",
+    "count": 496,
+    "speed": 90.32
+  },
+  {
+    "year": 2011,
+    "type": "Changeup",
+    "count": 743,
+    "speed": 89.98
+  },
+  {
+    "year": 2012,
+    "type": "Changeup",
+    "count": 639,
+    "speed": 89.06
+  },
+  {
+    "year": 2013,
+    "type": "Changeup",
+    "count": 737,
+    "speed": 89.5
+  },
+  {
+    "year": 2014,
+    "type": "Changeup",
+    "count": 1111,
+    "speed": 89.91
+  },
+  {
+    "year": 2015,
+    "type": "Changeup",
+    "count": 859,
+    "speed": 88.7
+  },
+  {
+    "year": 2007,
+    "type": "Slider",
+    "count": 493,
+    "speed": 90.38
+  },
+  {
+    "year": 2008,
+    "type": "Slider",
+    "count": 355,
+    "speed": 87.65
+  },
+  {
+    "year": 2009,
+    "type": "Slider",
+    "count": 510,
+    "speed": 86.99
+  },
+  {
+    "year": 2010,
+    "type": "Slider",
+    "count": 346,
+    "speed": 86.57
+  },
+  {
+    "year": 2011,
+    "type": "Slider",
+    "count": 376,
+    "speed": 86.69
+  },
+  {
+    "year": 2012,
+    "type": "Slider",
+    "count": 472,
+    "speed": 85.54
+  },
+  {
+    "year": 2013,
+    "type": "Slider",
+    "count": 362,
+    "speed": 84.77
+  },
+  {
+    "year": 2014,
+    "type": "Slider",
+    "count": 297,
+    "speed": 85.13
+  },
+  {
+    "year": 2015,
+    "type": "Slider",
+    "count": 183,
+    "speed": 84.94
+  },
+  {
+    "year": 2007,
+    "type": "Curveball",
+    "count": 299,
+    "speed": 84.13
+  },
+  {
+    "year": 2008,
+    "type": "Curveball",
+    "count": 271,
+    "speed": 82.65
+  },
+  {
+    "year": 2009,
+    "type": "Curveball",
+    "count": 375,
+    "speed": 82.54
+  },
+  {
+    "year": 2010,
+    "type": "Curveball",
+    "count": 561,
+    "speed": 82.86
+  },
+  {
+    "year": 2011,
+    "type": "Curveball",
+    "count": 505,
+    "speed": 82.33
+  },
+  {
+    "year": 2012,
+    "type": "Curveball",
+    "count": 399,
+    "speed": 81.94
+  },
+  {
+    "year": 2013,
+    "type": "Curveball",
+    "count": 442,
+    "speed": 81.15
+  },
+  {
+    "year": 2014,
+    "type": "Curveball",
+    "count": 567,
+    "speed": 80.96
+  },
+  {
+    "year": 2015,
+    "type": "Curveball",
+    "count": 680,
+    "speed": 80.78
+  }
+]

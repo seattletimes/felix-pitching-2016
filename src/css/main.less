@@ -1,0 +1,52 @@
+.ct-series {
+  .colorPitch(@type, @color) {
+    &.@{type} {
+      .ct-line, .ct-point { stroke: @color }
+    }
+  }
+  .colorPitch(Fastball, @fastball);
+  .colorPitch(Curveball, @curve);
+  .colorPitch(Sinker, @sinker);
+  .colorPitch(Slider, @slider);
+  .colorPitch(Changeup, @change);
+}
+
+.key {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0 8px;
+  vertical-align: baseline;
+
+  &.Fastball { background: @fastball}
+  &.Curveball { background: @curve }
+  &.Sinker { background: @sinker }
+  &.Slider { background: @slider }
+  &.Changeup { background: @change }
+}
+
+.pitch-animation {
+  float: right;
+  max-width: 30%;
+}
+
+.pitch-feature {
+  clear: both;
+
+  .stats {
+    font-family: @df-sans;
+    font-size: 14px;
+    border-collapse: collapse;
+
+    th, td {
+      border: 1px solid @df-middle-gray;
+      padding: 3px 8px;
+      text-align: right;
+    }
+
+    th {
+      background: @df-dark-gray;
+      color: @df-off-white;
+    }
+  }
+}
