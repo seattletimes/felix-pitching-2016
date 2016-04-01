@@ -11,18 +11,29 @@
   .colorPitch(Changeup, @change);
 }
 
-.key {
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  margin: 0 8px;
-  vertical-align: baseline;
+.color-key {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 
-  &.Fastball { background: @fastball}
-  &.Curveball { background: @curve }
-  &.Sinker { background: @sinker }
-  &.Slider { background: @slider }
-  &.Changeup { background: @change }
+  li {
+    display: inline-block;
+    margin: 0 8px;
+  }
+
+  .icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: text-top;
+
+    &.Fastball { background: @fastball}
+    &.Curveball { background: @curve }
+    &.Sinker { background: @sinker }
+    &.Slider { background: @slider }
+    &.Changeup { background: @change }
+  }
 }
 
 .pitch-animation {

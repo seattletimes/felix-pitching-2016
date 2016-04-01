@@ -25,8 +25,6 @@ window.pitchCounts.sort((a, b) => a.year - b.year).forEach(function(row) {
   speedData[row.type][index] = row.speed;
 });
 
-console.log(countData);
-
 // var data = series.map(s => ({ value: unzippedCounts[s], meta: s, className: s }));
 
 var countChart = new chartist.Line(".count-chart", {
@@ -40,8 +38,6 @@ var speedChart = new chartist.Line(".speed-chart", {
   labels: years,
   series: Object.keys(speedData).map(d => ({ value: speedData[d], meta: d, className: d }))
 });
-
-console.log(years);
 
 // pubSub.on("pitch-type", function(type) {
 //   //update the line graph
