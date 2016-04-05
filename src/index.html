@@ -43,11 +43,11 @@ var lorem = require("lorem-ipsum");
       <% json.FelixPitches_Pitches.forEach(function(pitch) { %>
       <section class="pitch-feature">
         <h2><%= pitch.type %></h2>
+        <p class="description"><%= pitch.description %></p>
         <div class="video-container">
           <iframe src='//players.brightcove.net/1509317113/VkZ4EROte_default/index.html?videoId=<%= pitch.video %>'
           allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
         </div>
-        <p class="description"><%= pitch.description %></p>
         <table class="stats">
           <tr> <th><b>Whiff rate</b> <td><%= pitch.whiff %>
           <tr> <th><b>Balls in play</b> <td><%= pitch.bip %>
