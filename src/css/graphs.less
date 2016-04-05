@@ -1,0 +1,39 @@
+@import (inline) "npm://chartist/dist/chartist.min.css";
+
+.ct-series {
+  .colorPitch(@type, @color) {
+    &.@{type} {
+      .ct-line, .ct-point { stroke: @color; }
+    }
+  }
+  .colorPitch(Fastball, @fastball);
+  .colorPitch(Curveball, @curve);
+  .colorPitch(Sinker, @sinker);
+  .colorPitch(Slider, @slider);
+  .colorPitch(Changeup, @change);
+}
+
+.color-key {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+  li {
+    display: inline-block;
+    margin: 0 8px;
+  }
+
+  .icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: text-top;
+
+    &.Fastball { background: @fastball}
+    &.Curveball { background: @curve }
+    &.Sinker { background: @sinker }
+    &.Slider { background: @slider }
+    &.Changeup { background: @change }
+  }
+}

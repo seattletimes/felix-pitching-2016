@@ -2,6 +2,7 @@
   {
     "type": "Fastball",
     "description": "This is the text from Ryan",
+    "video": 4832981654001,
     "whiff": "7.63%",
     "balls": "35.31%",
     "strikes": "25.81%",
@@ -13,6 +14,7 @@
   {
     "type": "Sinker",
     "description": "This space intentionally left blank.",
+    "video": 4833002671001,
     "whiff": "5.57%",
     "balls": "33.74%",
     "strikes": "26.18%",
@@ -24,6 +26,7 @@
   {
     "type": "Changeup",
     "description": "This space intentionally left blank.",
+    "video": 4833006385001,
     "whiff": "20.31%",
     "balls": "34.90%",
     "strikes": "28.47%",
@@ -35,6 +38,7 @@
   {
     "type": "Slider",
     "description": "This space intentionally left blank.",
+    "video": 4833006387001,
     "whiff": "20.73%",
     "balls": "35.74%",
     "strikes": "37.07%",
@@ -46,6 +50,7 @@
   {
     "type": "Curveball",
     "description": "This space intentionally left blank.",
+    "video": 4833002669001,
     "whiff": "12.62%",
     "balls": "28.84%",
     "strikes": "36.23%",
