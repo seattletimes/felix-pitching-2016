@@ -8,6 +8,16 @@ That consistency is something most people marvel at.
 
 "At the time, I didn't know much about Felix," Servais said. "He was 19 and just really, really special. It's not surprising he's had the career he's had with the stuff he's had. Staying healthy, the longevity, running out every fifth day and his track record really says a lot to what he's been able to do. But it seems crazy to think he's 30 years old."
 
+<div class="slider-container">
+  <image-slider>
+    <img src="./assets/portrait-then.jpg">
+    <img src="./assets/portrait-now.jpg">
+  </image-slider>
+  <div class="caption">
+    Felix in 2005 and 2016 (Seattle Mariners, Charlie Riedel / AP)
+  </div>
+</div>
+
 But don't call him old. Any gray hairs that might've have appeared on his head have been crushed by a much-discussed bleach/dye job.
 
 He thinks of himself as young.

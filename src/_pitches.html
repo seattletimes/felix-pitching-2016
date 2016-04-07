@@ -1,0 +1,33 @@
+<%
+var rightPad = function(n) {
+  n = n + "";
+  var pos = n.length - n.indexOf(".") - 1;
+  for (; pos < 3; pos++) {
+    n += "0"
+  }
+  return n;
+}
+%>
+<aside class="interactive">
+
+  <% json.FelixPitches_Pitches.forEach(function(pitch) { %>
+  <section class="pitch-feature">
+    <h2><%= pitch.type %></h2>
+    <p class="description"><%= pitch.description %></p>
+    <div class="video-container">
+      <iframe src='//players.brightcove.net/1509317113/VkZ4EROte_default/index.html?videoId=<%= pitch.video %>'
+      allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
+    </div>
+    <table class="stats">
+      <tr> <th>Whiff rate <td><%= pitch.whiff %>
+      <tr> <th>Balls in play <td><%= pitch.bip %>
+      <tr> <th>Balls <td><%= pitch.balls %>
+      <tr> <th>Strikes <td><%= pitch.strikes %>
+      <tr> <th>Strikeouts <td><%= pitch.strikeouts %>
+      <tr> <th>Batting Average Against <td><%= rightPad(pitch.baa) %>
+      <tr> <th>Slugging percentage <td><%= rightPad(pitch.slugging) %>
+    </table>
+  </section>
+  <% }) %>
+
+</aside>

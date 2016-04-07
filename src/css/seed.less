@@ -1,11 +1,11 @@
 @import "seattletimes";
 
-@fastball: @st-dark-orange;
-@curve: @st-dark-purple;
-@sinker: @st-dark-green;
-@slider: @st-dark-red;
-@cutter: @df-dark-gray;
-@change: @st-dark-blue;
+@change: #f88a47;
+@curve: black;
+@cutter: #56617d;
+@fastball: #269ba5;
+@sinker: #c7cffd;
+@slider: #395b91;
 
 @import "header";
 @import "main";
@@ -17,6 +17,10 @@
 .constrained {
   max-width: 800px;
   margin: auto;
+
+  @media @mobile {
+    margin: 0 16px;
+  }
 }
 
 footer.nav-bottom {

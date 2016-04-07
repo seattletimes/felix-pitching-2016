@@ -1,6 +1,4 @@
-<%
-var lorem = require("lorem-ipsum");
-%><!doctype html>
+<!doctype html>
 <html>
   <head>
     <title><%= json.project.title %></title>
@@ -25,7 +23,8 @@ var lorem = require("lorem-ipsum");
       
       <h2 class="constrained">As he turns 30, Mariners' Felix Hernandez remains a consistent force</h2>
       <div class="byline constrained">
-        By Ryan Divish, Seattle Times staff reporter
+        By Ryan Divish
+        <div class="role">Seattle Times staff reporter</div>
       </div>
     </header>
 
@@ -42,56 +41,20 @@ var lorem = require("lorem-ipsum");
 
       <div class="constrained">
 
+        <%= t.include("_pitches.html") %>
 
-        <aside class="interactive pitch-graph">
-
-          <h2>Pitch counts by year</h2>
-          <p>Over time, Felix has relied less on his slider--and more on his changeup.
-          <div class="ct-chart count-chart ct-major-twelfth"></div>
-          <%= t.include("_key.html") %>
-
-          <h2>Pitch speed by year</h2>
-          <p>Although his speed has dropped overall, that changeup remains relatively speedy, especially in comparison to his fastball. On average, the difference between the two last year was only five miles an hour.
-          <div class="ct-chart speed-chart ct-major-twelfth"></div>
-          <%= t.include("_key.html") %>
-
-        </aside>
+        <%= t.include("partials/_ad.html", { type: "square" }) %>
 
         <%= markdown.storyDurability %>
+
+        <%= t.include("_graphs.html") %>
+
+        <%= markdown.storyPitching %>
 
       </div>
 
       <img src="./assets/felixdrawing.jpg">
-
-      <div class="constrained">
-
-        <%= markdown.storyPitching %>
-
-        <aside class="interactive">
-
-          <% json.FelixPitches_Pitches.forEach(function(pitch) { %>
-          <section class="pitch-feature">
-            <h2><%= pitch.type %></h2>
-            <p class="description"><%= pitch.description %></p>
-            <div class="video-container">
-              <iframe src='//players.brightcove.net/1509317113/VkZ4EROte_default/index.html?videoId=<%= pitch.video %>'
-              allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
-            </div>
-            <table class="stats">
-              <tr> <th><b>Whiff rate</b> <td><%= pitch.whiff %>
-              <tr> <th><b>Balls in play</b> <td><%= pitch.bip %>
-              <tr> <th><b>Balls</b> <td><%= pitch.balls %>
-              <tr> <th><b>Strikes</b> <td><%= pitch.strikes %>
-              <tr> <th><b>Strikeouts</b> <td><%= pitch.strikeouts %>
-              <tr> <th><b>Batting Average Against</b> <td><%= pitch.baa %>
-              <tr> <th><b>Slugging percentage</b> <td><%= pitch.slugging %>
-            </table>
-          </section>
-          <% }) %>
-
-        </aside>
-
-      </div>
+      <div class="credit constrained">Susan Jouflas / The Seattle Times</div>
 
     </main>
 
@@ -99,7 +62,7 @@ var lorem = require("lorem-ipsum");
       <ul class="credits">
         <li> Reporting: Ryan Divish
         <li> Data: Thomas Wilburn
-        <li> Video: Katie Greene
+        <li> Video: Bettina Hansen, Katie G. Cotteril
         <li> Production: Sean Quinton
       </ul>
     </footer>

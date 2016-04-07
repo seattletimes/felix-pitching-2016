@@ -11,6 +11,15 @@
   .colorPitch(Sinker, @sinker);
   .colorPitch(Slider, @slider);
   .colorPitch(Changeup, @change);
+
+  @media @mobile {
+    .ct-line {
+      stroke-width: 2px;
+    }
+    .ct-point {
+      stroke-width: 4px;
+    }
+  }
 }
 
 .color-key {

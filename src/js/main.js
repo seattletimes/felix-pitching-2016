@@ -1,6 +1,8 @@
 require("./lib/social");
-// require("./lib/ads");
-// var track = require("./lib/tracking");
+require("./lib/ads");
+var track = require("./lib/tracking");
+
+require("component-image-slider");
 
 var $ = require("./lib/qsa");
 var chartist = require("chartist");
@@ -32,12 +34,27 @@ var countChart = new chartist.Line(".count-chart", {
   series: Object.keys(countData).map(d => ({ value: countData[d], meta: d, className: d }))
 }, {
   lineSmooth: false
-});
+}, [
+  ["screen and (max-width: 480px)", {
+    axisY: {
+      labelInterpolationFnc: v => v ? v / 1000 + "k" : v
+    },
+    axisX: {
+      labelInterpolationFnc: y => "'" + (y + "").substr(2)
+    }
+  }]
+]);
 
 var speedChart = new chartist.Line(".speed-chart", {
   labels: years,
   series: Object.keys(speedData).map(d => ({ value: speedData[d], meta: d, className: d }))
-});
+}, null, [
+  ["screen and (max-width: 480px)", {
+    axisX: {
+      labelInterpolationFnc: y => "'" + (y + "").substr(2)
+    }
+  }]
+]);
 
 // pubSub.on("pitch-type", function(type) {
 //   //update the line graph

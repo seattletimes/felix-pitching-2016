@@ -1,6 +1,6 @@
 .pitch-animation {
   float: right;
-  max-width: 30%;
+  max-width: 50%;
 }
 
 .pitch-feature {
@@ -11,7 +11,7 @@
     width: 50%;
 
     @media @mobile {
-      max-width: 100%;
+      width: 100%;
     }
   }
 
@@ -20,15 +20,70 @@
     font-size: 14px;
     border-collapse: collapse;
 
+    @media @mobile {
+      width: 100%;
+    }
+
     th, td {
-      border: 1px solid @df-middle-gray;
+      border-top: 1px solid @df-light-gray;
       padding: 3px 8px;
       text-align: right;
     }
 
     th {
-      background: @df-dark-gray;
-      color: @df-off-white;
+      color: darken(@st-dark-blue, 20%);
+      font-weight: normal;
     }
+  }
+}
+
+.credit {
+  text-align: right;
+  font-family: @df-sans;
+  text-transform: uppercase;
+  color: @df-middle-gray;
+  font-size: 15px;
+}
+
+main .ad {
+  float: right;
+  padding: 16px;
+
+  @media @mobile {
+    float: none;
+  }
+}
+
+blockquote {
+  float: right;
+  color: @df-blue;
+  font-size: 24px;
+  font-weight: bold;
+  text-style: italic;
+  width: 280px;
+  display: block;
+  padding: 16px;
+
+  @media @mobile {
+    width: 100%;
+    float: none;
+  }
+}
+
+.slider-container {
+  float: left;
+  max-width: 360px;
+  margin: 24px;
+
+  @media @mobile {
+    float: none;
+    margin: 24px auto;
+  }
+
+  .caption {
+    font-size: 14px;
+    color: @df-middle-gray;
+    font-style: italic;
+    font-family: @df-sans;
   }
 }
