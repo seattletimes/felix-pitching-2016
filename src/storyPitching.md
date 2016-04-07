@@ -2,9 +2,9 @@
 
 But you also have to evolve. Hernandez is no longer the flamethrower of his youth. He has become a pitcher. When he fiddled around with a circle changeup grip during the 2009 season and decided to start throwing it in games, he became an artist on the mound. It soon became his best pitch and changed his approach to attacking hitters.
 
-The emergence of the changeup loomed more important with the steady decline of his fastball velocity. He no longer rifles fastballs in the mid to high 90s. His average fastball the last four seasons has been right around 92 mph. Also as he matured, his reliance on the fastball has dwindled. In 2008 he threw it 65.9 percent of the time. Last season, he threw it 38.7 percent of the time.
-
 > "I don't feel like I'm 30, I feel like I'm 22."
+
+The emergence of the changeup loomed more important with the steady decline of his fastball velocity. He no longer rifles fastballs in the mid to high 90s. His average fastball the last four seasons has been right around 92 mph. Also as he matured, his reliance on the fastball has dwindled. In 2008 he threw it 65.9 percent of the time. Last season, he threw it 38.7 percent of the time.
 
 "I know how to pitch now," he said.
 

@@ -27,8 +27,6 @@ window.pitchCounts.sort((a, b) => a.year - b.year).forEach(function(row) {
   speedData[row.type][index] = row.speed;
 });
 
-// var data = series.map(s => ({ value: unzippedCounts[s], meta: s, className: s }));
-
 var countChart = new chartist.Line(".count-chart", {
   labels: years,
   series: Object.keys(countData).map(d => ({ value: countData[d], meta: d, className: d }))
@@ -37,7 +35,9 @@ var countChart = new chartist.Line(".count-chart", {
 }, [
   ["screen and (max-width: 480px)", {
     axisY: {
-      labelInterpolationFnc: v => v ? v / 1000 + "k" : v
+      labelInterpolationFnc: v => v ? v / 1000 + "k" : v,
+      // showLabel: false,
+      offset: 20
     },
     axisX: {
       labelInterpolationFnc: y => "'" + (y + "").substr(2)
@@ -50,13 +50,11 @@ var speedChart = new chartist.Line(".speed-chart", {
   series: Object.keys(speedData).map(d => ({ value: speedData[d], meta: d, className: d }))
 }, null, [
   ["screen and (max-width: 480px)", {
+    axisY: {
+      offset: 20
+    },
     axisX: {
       labelInterpolationFnc: y => "'" + (y + "").substr(2)
     }
   }]
 ]);
-
-// pubSub.on("pitch-type", function(type) {
-//   //update the line graph
-//   console.log("pitch-graph", type);
-// });
