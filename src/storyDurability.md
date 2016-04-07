@@ -1,3 +1,5 @@
+&nbsp;
+
 ### Proud of durability
 
 Hernandez was the opposite. Beyond his stuff and talent, the durability has been outstanding. He has made 30 or more starts in each of the past 10 seasons and has not pitched less than 190 innings a season during that span. Hernandez has logged more than 200 innings in his past eight seasons. Of all his individual statistics, the 30-start, 200-inning barriers are most important to him.
@@ -14,7 +16,7 @@ That consistency is something most people marvel at.
     <img src="./assets/portrait-now.jpg">
   </image-slider>
   <div class="caption">
-    Felix in 2005 and 2016 (Seattle Mariners, Charlie Riedel / AP)
+    Felix in 2005 and 2016. (Seattle Mariners, Charlie Riedel / AP)
   </div>
 </div>
 
@@ -35,3 +37,5 @@ Those workouts that are core and leg centric have helped him battle the fatigue 
 Hernandez was blunt about his career path had he not changed his offseason routine and eating habits.
 
 "I probably wouldn't be pitching right now," he said. "To be pitching that long in the big leagues, you have to a have a real routine and have a good workout program."
+
+&nbsp;
