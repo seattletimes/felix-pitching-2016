@@ -1,7 +1,7 @@
 [
   {
     "type": "Fastball",
-    "description": "This is the text from Ryan",
+    "description": "Once his primary weapon, Hernandez now throws it less than one-third of the time. The velocity has dropped from an average of 96.3 mph in 2007 to 92.1 mph in 2015. But if spotted properly it’s still an effective pitch because of the natural movement. The fastball occasionally will cut toward left-handed hitters.",
     "video": 4832981654001,
     "whiff": "7.63%",
     "balls": "35.31%",
@@ -13,7 +13,7 @@
   },
   {
     "type": "Sinker",
-    "description": "This space intentionally left blank.",
+    "description": "He calls it his sinker, and it does have strong sinking motion. It’s a favorite pitch for situations in which he needs a ground ball. He also uses it to pitch to contact and keep his pitch count low.",
     "video": 4833002671001,
     "whiff": "5.57%",
     "balls": "33.74%",
@@ -25,7 +25,7 @@
   },
   {
     "type": "Changeup",
-    "description": "This space intentionally left blank.",
+    "description": "Latin players refer to it as “cambio,” and it is his best pitch. Unlike many pitchers, he throws it nearly as hard as a fastball in terms of velocity. But his arm speed and the pitch’s sinking motion leave hitters guessing. It’s his best pitch for getting a swing and a miss with two strikes.",
     "video": 4833006385001,
     "whiff": "20.31%",
     "balls": "34.90%",
@@ -37,7 +37,7 @@
   },
   {
     "type": "Slider",
-    "description": "This space intentionally left blank.",
+    "description": "The breaking pitch is thrown harder with sharper break than his curveball. Hernandez likes to get some depth with the pitch and looks for swings and misses.",
     "video": 4833006387001,
     "whiff": "20.73%",
     "balls": "35.74%",
@@ -49,7 +49,7 @@
   },
   {
     "type": "Curveball",
-    "description": "This space intentionally left blank.",
+    "description": "It’s a pitch he has grown more comfortable with over the past season. He used it more than his other secondary pitches in 2015. It’s his slowest pitch and changes eye level with its big 12-to-6 break.",
     "video": 4833002669001,
     "whiff": "12.62%",
     "balls": "28.84%",
