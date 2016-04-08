@@ -2,7 +2,9 @@
 
 ### Proud of durability
 
-Hernandez was the opposite. Beyond his stuff and talent, the durability has been outstanding. He has made 30 or more starts in each of the past 10 seasons and has not pitched less than 190 innings per season during that span. Hernandez has logged more than 200 innings in his past eight seasons. Of all his individual statistics, the 30-start, 200-inning barriers are most important to him.
+Hernandez was the opposite. Beyond his stuff and talent, the durability has been outstanding. He has made 30 or more starts in each of the past 10 seasons and has not pitched fewer than 190 innings per season during that span. Hernandez has logged more than 200 innings in his past eight seasons.
+
+Of all his individual statistics, the 30-start, 200-inning barriers are most important to him.
 
 "That's what I like," he said. "I want to throw as many innings as I can. After the season's over, you want to look up and know that you've thrown over 200 innings. That's the most important goal as a pitcher."
 
@@ -30,7 +32,7 @@ There's a reason for that. Hernandez shed his chubbiness a few years into his ca
 
 "You have to work harder, because you aren't 21 anymore," he said. "You have to increase your offseason program and be more aggressive with your offseason workouts."
 
-Those workouts that are core and leg centric have helped him battle the fatigue and soreness that seems to come with age.
+Workouts that are core- and leg-centric have helped him battle the fatigue and soreness which seem to come with age.
 
 "I feel the same as I did when I was 21," he said. "I don't feel any different. I have my own routine. I do a lot of stuff in the training room and in the weight room, and it's why I feel that way."
 
