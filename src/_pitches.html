@@ -5,7 +5,7 @@ var rightPad = function(n) {
   for (; pos < 3; pos++) {
     n += "0"
   }
-  return n;
+  return n.replace(/^0\./, ".");
 }
 %>
 <aside class="interactive">
