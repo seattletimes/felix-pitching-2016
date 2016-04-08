@@ -17,3 +17,5 @@ He also has signed two contract extensions to remain with the team that signed h
 "So I flew up there, and I was following the club and Felix Hernandez was pitching. I just said, ‘Wow.' He was 19 years old. Just a few years earlier I had caught Kerry Wood in his rookie year (with the Chicago Cubs), and I said, ‘This guy is better than Kerry Wood.'"
 
 Arm troubles dimmed Wood's rise to stardom. He later returned as a closer and had some success.
+
+&nbsp;
